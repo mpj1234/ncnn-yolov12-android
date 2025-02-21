@@ -1,5 +1,14 @@
 pluginManagement {
 	repositories {
+		maven {
+			this.url = uri("https://maven.aliyun.com/repository/public/")
+		}
+		maven {
+			this.url = uri("https://maven.aliyun.com/repository/google/")
+		}
+		maven {
+			this.url = uri("https://maven.aliyun.com/repository/jcenter/")
+		}
 		google {
 			content {
 				includeGroupByRegex("com\\.android.*")

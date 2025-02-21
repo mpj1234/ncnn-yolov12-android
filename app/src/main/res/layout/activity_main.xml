@@ -1,19 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/outsideLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF"
+	android:orientation="vertical">
 
-	<TextView
-		android:id="@+id/sample_text"
-		android:layout_width="wrap_content"
+	<LinearLayout
+		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:text="Hello World!"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toTopOf="parent" />
+		android:orientation="horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+		<Button
+			android:id="@+id/buttonSwitchCamera"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="切换摄像头" />
+
+		<Button
+			android:id="@+id/buttonStopStart"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="启动/停止" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Spinner
+			android:id="@+id/spinnerModel"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:layout_weight="1"
+			android:drawSelectorOnTop="true"
+			android:entries="@array/model_array" />
+
+		<Spinner
+			android:id="@+id/spinnerCPUGPU"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:layout_weight="1"
+			android:drawSelectorOnTop="true"
+			android:entries="@array/cpugpu_array" />
+
+	</LinearLayout>
+
+	<SurfaceView
+		android:id="@+id/cameraview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+
+</LinearLayout>

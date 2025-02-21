@@ -1,3 +1,11 @@
 <resources>
 	<string name="app_name">yolov12</string>
+	<string-array name="model_array">
+				<item>yolov12n</item>
+				<item>yolov12s</item>
+	</string-array>
+	<string-array name="cpugpu_array">
+		<item>CPU</item>
+		<item>GPU</item>
+	</string-array>
 </resources>

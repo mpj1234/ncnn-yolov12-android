@@ -4,12 +4,12 @@ plugins {
 
 android {
 	namespace = "com.mpj.yolov12"
-	compileSdk = 35
+	compileSdk = 34
 
 	defaultConfig {
 		applicationId = "com.mpj.yolov12"
 		minSdk = 24
-		targetSdk = 35
+		targetSdk = 34
 		versionCode = 1
 		versionName = "1.0"
 
@@ -39,6 +39,14 @@ android {
 	}
 	buildFeatures {
 		viewBinding = true
+	}
+	ndkVersion = "25.2.9519653"
+	sourceSets {
+		getByName("main") {
+			assets {
+				srcDirs("src\\main\\assets", "src\\main\\assets")
+			}
+		}
 	}
 }
 
