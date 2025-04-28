@@ -4,7 +4,7 @@ Yolov12 model supports android deployment.
 ## Please, have some stars for this repo. Thank you! 🌟🌟🌟🌟🌟
 
 ## Support the latest pnnx export
-````python
+```python
 # -*- coding: UTF-8 -*-
 """
   @Author: mpj
