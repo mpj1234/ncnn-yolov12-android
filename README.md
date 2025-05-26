@@ -1,9 +1,15 @@
 # ncnn-yolov12-android
+
 Yolov12 model supports android deployment.
 
 ## Please, have some stars for this repo. Thank you! 🌟🌟🌟🌟🌟
 
 ## Support the latest pnnx export
+
+Download the latest pnnx and put it in the `ultralytics` directory.
+
+![pnnx_ultralytics.png](.assets/pnnx_ultralytics.png)
+
 ```python
 # -*- coding: UTF-8 -*-
 """
@@ -25,7 +31,9 @@ if __name__ == '__main__':
 
 ```
 
-file [`native-lib.cpp`](https://github.com/mpj1234/ncnn-yolov12-android/blob/5f0981d8b289f97fae8dd02ba1107f56510f1330/app/src/main/cpp/native-lib.cpp#L175)
+file [
+`native-lib.cpp`](https://github.com/mpj1234/ncnn-yolov12-android/blob/5f0981d8b289f97fae8dd02ba1107f56510f1330/app/src/main/cpp/native-lib.cpp#L175)
+
 ``` c++
 const int target_sizes[] =
 {
@@ -35,5 +43,12 @@ const int target_sizes[] =
 ```
 
 ## Visualization result
-![v12n.jpg](.assets/v12n.jpg)
-![v12s.jpg](.assets/v12s.jpg)
+
+<table>
+  <tr>
+    <td><img src=".assets/v12n.jpg" alt="图1" style="width: 100%"/></td>
+    <td><img src=".assets/v12s.jpg" alt="图2" style="width: 100%"/></td>
+    <td><img src=".assets/v12n-turbo.jpg" alt="图3" style="width: 100%"/></td>
+    <td><img src=".assets/v12s-turbo.jpg" alt="图4" style="width: 100%"/></td>
+  </tr>
+</table>

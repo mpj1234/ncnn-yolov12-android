@@ -5,7 +5,7 @@ project("yolov12")
 set(OpenCV_DIR E:/ncnn/opencv-mobile-4.9.0-android/sdk/native/jni)
 find_package(OpenCV REQUIRED core imgproc)
 
-set(ncnn_DIR E:/ncnn/ncnn-20240102-android-vulkan/${ANDROID_ABI}/lib/cmake/ncnn)
+set(ncnn_DIR E:/ncnn/ncnn-20250428-android-vulkan/${ANDROID_ABI}/lib/cmake/ncnn)
 find_package(ncnn REQUIRED)
 
 add_library(${CMAKE_PROJECT_NAME} SHARED

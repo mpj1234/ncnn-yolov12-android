@@ -48,7 +48,7 @@ Permute                  permute_193              1 1 52 55 0=3
 Split                    splitncnn_4              1 2 55 56 57
 Permute                  transpose_318            1 1 53 58 0=1
 MatMul                   matmul_285               2 1 58 54 59
-BinaryOp                 mul_2                    1 1 59 60 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_2                    1 1 59 60 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_5              1 2 60 61 62
 Reduction                max_301                  1 1 62 63 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_3                    2 1 61 63 64 0=1
@@ -84,7 +84,7 @@ Permute                  permute_200              1 1 95 98 0=3
 Split                    splitncnn_9              1 2 98 99 100
 Permute                  transpose_321            1 1 96 101 0=1
 MatMul                   matmul_287               2 1 101 97 102
-BinaryOp                 mul_9                    1 1 102 103 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_9                    1 1 102 103 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_10             1 2 103 104 105
 Reduction                max_302                  1 1 105 106 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_10                   2 1 104 106 107 0=1
@@ -120,7 +120,7 @@ Permute                  permute_207              1 1 139 142 0=3
 Split                    splitncnn_14             1 2 142 143 144
 Permute                  transpose_324            1 1 140 145 0=1
 MatMul                   matmul_289               2 1 145 141 146
-BinaryOp                 mul_16                   1 1 146 147 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_16                   1 1 146 147 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_15             1 2 147 148 149
 Reduction                max_303                  1 1 149 150 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_17                   2 1 148 150 151 0=1
@@ -156,7 +156,7 @@ Permute                  permute_214              1 1 182 185 0=3
 Split                    splitncnn_19             1 2 185 186 187
 Permute                  transpose_327            1 1 183 188 0=1
 MatMul                   matmul_291               2 1 188 184 189
-BinaryOp                 mul_23                   1 1 189 190 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_23                   1 1 189 190 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_20             1 2 190 191 192
 Reduction                max_304                  1 1 192 193 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_24                   2 1 191 193 194 0=1
@@ -200,7 +200,7 @@ Permute                  permute_221              1 1 235 238 0=3
 Split                    splitncnn_25             1 2 238 239 240
 Permute                  transpose_330            1 1 236 241 0=1
 MatMul                   matmul_293               2 1 241 237 242
-BinaryOp                 mul_30                   1 1 242 243 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_30                   1 1 242 243 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_26             1 2 243 244 245
 Reduction                max_305                  1 1 245 246 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_31                   2 1 244 246 247 0=1
@@ -236,7 +236,7 @@ Permute                  permute_228              1 1 278 281 0=3
 Split                    splitncnn_30             1 2 281 282 283
 Permute                  transpose_333            1 1 279 284 0=1
 MatMul                   matmul_295               2 1 284 280 285
-BinaryOp                 mul_37                   1 1 285 286 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_37                   1 1 285 286 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_31             1 2 286 287 288
 Reduction                max_306                  1 1 288 289 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_38                   2 1 287 289 290 0=1
@@ -272,7 +272,7 @@ Permute                  permute_235              1 1 322 325 0=3
 Split                    splitncnn_35             1 2 325 326 327
 Permute                  transpose_336            1 1 323 328 0=1
 MatMul                   matmul_297               2 1 328 324 329
-BinaryOp                 mul_44                   1 1 329 330 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_44                   1 1 329 330 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_36             1 2 330 331 332
 Reduction                max_307                  1 1 332 333 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_45                   2 1 331 333 334 0=1
@@ -308,7 +308,7 @@ Permute                  permute_242              1 1 365 368 0=3
 Split                    splitncnn_40             1 2 368 369 370
 Permute                  transpose_339            1 1 366 371 0=1
 MatMul                   matmul_299               2 1 371 367 372
-BinaryOp                 mul_51                   1 1 372 373 0=2 1=1 2=1.767767e-01
+BinaryOp                 mul_51                   1 1 372 373 0=2 1=1 2=1.767770e-01
 Split                    splitncnn_41             1 2 373 374 375
 Reduction                max_308                  1 1 375 376 0=4 1=0 -23303=1,-1 4=1 5=1
 BinaryOp                 sub_52                   2 1 374 376 377 0=1

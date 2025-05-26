@@ -169,10 +169,14 @@ Java_com_mpj_yolov12_Yolov12_loadModel(JNIEnv *env, jobject thiz, jobject assetM
 			{
 					"yolov12n",
 					"yolov12s",
+					"yolov12n-turbo",
+					"yolov12s-turbo",
 			};
 
 	const int target_sizes[] =
 			{
+					320,
+					320,
 					320,
 					320,
 			};
@@ -181,10 +185,14 @@ Java_com_mpj_yolov12_Yolov12_loadModel(JNIEnv *env, jobject thiz, jobject assetM
 			{
 					{0.f, 0.f, 0.f},
 					{0.f, 0.f, 0.f},
+					{0.f, 0.f, 0.f},
+					{0.f, 0.f, 0.f},
 			};
 
 	const float norm_vals[][3] =
 			{
+					{1 / 255.f, 1 / 255.f, 1 / 255.f},
+					{1 / 255.f, 1 / 255.f, 1 / 255.f},
 					{1 / 255.f, 1 / 255.f, 1 / 255.f},
 					{1 / 255.f, 1 / 255.f, 1 / 255.f},
 			};

@@ -40,7 +40,7 @@ android {
 	buildFeatures {
 		viewBinding = true
 	}
-	ndkVersion = "25.2.9519653"
+	ndkVersion = "29.0.13113456 rc1"
 	sourceSets {
 		getByName("main") {
 			assets {

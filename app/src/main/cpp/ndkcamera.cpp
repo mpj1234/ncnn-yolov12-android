@@ -447,7 +447,7 @@ void NdkCameraWindow::on_image(const unsigned char *nv21, int nv21_width, int nv
 			ASensorEventQueue_enableSensor(sensor_event_queue, accelerometer_sensor);
 		}
 
-		int id = ALooper_pollAll(0, nullptr, nullptr, nullptr);
+		int id = ALooper_pollOnce(0, nullptr, nullptr, nullptr);
 		if (id == NDKCAMERAWINDOW_ID) {
 			ASensorEvent e[8];
 			ssize_t num_event = 0;
