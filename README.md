@@ -1,6 +1,6 @@
 # ncnn-yolov12-android
 
-Yolov12 model supports android deployment.
+Yolov12 model supports android deployment. Yolov8 and Yolov11 can also be supported.
 
 ## Please, have some stars for this repo. Thank you! 🌟🌟🌟🌟🌟
 
